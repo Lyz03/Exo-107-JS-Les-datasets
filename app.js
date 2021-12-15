@@ -23,16 +23,17 @@ else
     p4.innerText += "\n" + "La valeur est faux"
 
 // part 2
-p5.dataset.number = "5"
+p5.dataset.number = "5";
 p5.dataset.number = (parseInt(p5.dataset.number) + 10).toString();
 
-p6.dataset.string = "cinq"
+p6.dataset.string = "cinq";
 p6.dataset.string = (p6.dataset.string.length).toString();
 
 p7.dataset.array = "1, 2, 3, 4, 5";
 let p7Array = p7.dataset.array.split(",");
 p7Array.forEach(value => p7.innerText += "\n" + value.toString());
 
+p8.dataset.booleen = "true";
 if (p8.dataset.booleen === "true")
     p8.innerText += "\n" + "La valeur est vrai"
 else
