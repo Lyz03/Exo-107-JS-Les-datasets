@@ -38,3 +38,15 @@ if (p8.dataset.booleen === "true")
     p8.innerText += "\n" + "La valeur est vrai"
 else
     p8.innerText += "\n" + "La valeur est faux"
+
+// bonus
+let p = document.createElement("p");
+document.body.appendChild(p);
+const person = {
+    firstName: "John",
+    name: "Doe"
+}
+
+let personV2 = JSON.stringify(person);
+
+p.dataset.object = personV2;
